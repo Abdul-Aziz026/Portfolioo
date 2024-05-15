@@ -36,10 +36,10 @@ body {
 
 .navbar a {
     display: inline-block;
-    font-size: 20px;
+    font-size: 17px;
     color: #fff;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 200;
     margin-left: 35px;
     transition: 0.5s ease;
     opacity: 0;
@@ -48,7 +48,11 @@ body {
 }
 
 .navbar a:hover {
-    color: #0ef;
+    color: black;
+    padding: 5px 0;
+    border-radius: 10px;
+    background: #0ef;
+    box-shadow: 0 0 25px #0ef;
 }
 
 .home {
@@ -76,11 +80,20 @@ body {
 .Profile2 {
     width: 400px;
     height: 350px;
-    border: 5px solid #478888;
+    border: 1px solid #012290f7;
+    box-shadow: 1px 1px 20px #012290f7,
+            1px 1px 40px #0053b8f7,
+            1px 1px 60px #77aff3f7;
+    box-sizing: border-box;
+    border-radius: 30px;
+    transition: background 0.5s, transform 0.5s;
+}
+.Profile2:hover {
+    transform: translateY(-20px);
     box-shadow: 0 0 20px #0ef,
                 0 0 40px #0ef, 
                 0 0 60px #478888;
-    border-radius: 50%;
+    cursor: pointer;
 }
 
 .home-content {
@@ -248,6 +261,46 @@ body {
     padding: 10px 0 5px 0;
 }
 
+.cp-activities {
+    padding: 70px 10% 0;
+}
+
+.cp-activities-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.cp-activities-list .judge {
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+.judge img {
+    padding: 5px 5px;
+    height: 200px;
+    width: 250px;
+    background-size: cover;
+}
+
+.btn-handle {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #081b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 1.5s;
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan;
+}
 
 
 
