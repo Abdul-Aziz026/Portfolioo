@@ -271,35 +271,45 @@ body {
     grid-gap: 30px;
     margin-top: 50px;
     text-align: center;
+    line-height: 1.4rem;
 }
 
-.cp-activities-list .judge {
-    border: 1px solid blue;
+.judge {
     border-radius: 10px;
+    padding: 10px 0;
+    box-shadow: 0 0 10px #3266d0,
+                0 0 20px #214489;
+    transition: background 1s, transform 1s;
+}
+
+.judge:hover{
+    box-shadow: 0 0 30px #3266d0,
+                0 0 40px #214489;
+    transform: translateY(-15px);
 }
 
 .judge img {
     padding: 5px 5px;
-    height: 200px;
-    width: 250px;
+    height: 250px;
+    width: 350px;
     background-size: cover;
 }
 
 .btn-handle {
     display: inline-block;
-    padding: 12px 28px;
-    background: #0ef;
-    border-radius: 40px;
+    margin-top: 15px;
+    padding: 2px 2px;
+    background: #1d5ae9;
+    border-radius: 5px;
     font-size: 16px;
     color: #081b29;
     letter-spacing: 1px;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 500;
     opacity: 0;
     animation: slideTop 1s ease forwards;
     animation-delay: 1.5s;
-    box-shadow: 0 0 5px cyan,
-    0 0 25px cyan;
+    box-shadow: 0 0 5px #242c49;
 }
 
 
