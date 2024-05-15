@@ -190,7 +190,7 @@ body {
 
 .education {
     padding: 70px 10% 0;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     padding-bottom: 3rem;
 }
 .education h1 {
@@ -234,14 +234,18 @@ body {
 
 .achievements {
     padding: 70px 10% 0;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     padding-bottom: 3rem;
 }
 
 .achievements h1 {
     font-size: 40px;
     font-weight: 250;
-    padding: 5px 0 15px 0;
+    padding: 5px 0 5px 0;
+}
+
+.achievements h2{
+    padding: 10px 0 5px 0;
 }
 
 
