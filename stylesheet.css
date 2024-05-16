@@ -130,6 +130,8 @@ body {
     opacity: 0;
     animation: slideLeft 1s ease forwards;
     animation-delay: 1s;
+    line-height: 1.7rem;
+    letter-spacing: 0.5px;
 }
 
 .home-sci a {
@@ -517,7 +519,6 @@ footer {
     font-size: 20px;
     padding: 30px 0 30px 0;
 }
-
 
 @keyframes slideRight {
     0% {
