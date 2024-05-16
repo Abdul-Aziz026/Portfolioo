@@ -320,8 +320,8 @@ body {
 
 .judge img {
     padding: 5px 5px;
-    height: 250px;
-    width: 350px;
+    width: 70%;
+    height: 50%;
     background-size: cover;
 }
 
