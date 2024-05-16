@@ -66,16 +66,16 @@ body {
 }
 
 .Profile1 {
-    width: 350px;
-    height: 320px;
+    width: 20vw;
+    height: 30vh;
     border: 5px solid #478888;
     border-radius: 50%;
 }
 
 .image-container {
     position: relative;
-    width: 350px; /* Match your image width */
-    height: 320px; /* Match your image height */
+    width: 30vw; /* Match your image width */
+    height: 50vh; /* Match your image height */
     /* overflow: hidden; */
 }
 
@@ -106,8 +106,8 @@ body {
 }
 
 .Profile2 {
-    width: 400px;
-    height: 350px;
+    width: 90%;
+    height: 90%;
     border: 1px solid #012290f7;
     box-shadow: 1px 1px 20px #012290f7,
             1px 1px 40px #0053b8f7,
