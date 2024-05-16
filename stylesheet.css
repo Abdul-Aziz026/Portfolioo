@@ -69,11 +69,42 @@ body {
     width: 350px;
     height: 320px;
     border: 5px solid #478888;
-    box-shadow: 0 0 20px #0ef,
-                0 0 40px #0ef, 
-                0 0 60px #478888;
     border-radius: 50%;
 }
+
+.image-container {
+    position: relative;
+    width: 350px; /* Match your image width */
+    height: 320px; /* Match your image height */
+    /* overflow: hidden; */
+}
+
+.moving-image {
+    position: absolute; /* Use absolute positioning for animation */
+    width: 100%; /* Ensure the image fits the container */
+    height: 100%; /* Ensure the image fits the container */
+    top: 10%;
+    animation: moveUpDown 2s ease-in-out infinite;
+    box-shadow: 0 0 20px #0ef;
+}
+
+@keyframes moveUpDown {
+    0% {
+        top: -20px;
+        box-shadow: 0 0 20px #0ef;
+    }
+    50% {
+        top: 0; /* Move the image down */
+        box-shadow: 0 0 20px #0ef,
+                    0 0 40px #0ef, 
+                    0 0 60px #6af0f0;
+    }
+    100% {
+        top: -20px;; /* Move the image back to the top */
+        box-shadow: 0 0 20px #0ef;
+    }
+}
+
 .Profile2 {
     width: 400px;
     height: 350px;
